@@ -242,9 +242,25 @@ section h1 {
   text-align: center;
 }
 
+.gift_pane span.logo {
+  width: 60px;
+  height: 33px;
+  text-align: center;
+}
+
+.gift_pane span.logo.full {
+  width: 200px;
+  height: 33px;
+  text-align: center;
+}
+
 .gift_pane span.logo img {
   max-width: 60px;
   max-height: 33px;
+}
+
+.gift_pane span.logo.full img {
+  max-width: 200px;
 }
 
 .gift_pane .tagline {
