@@ -96,6 +96,10 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 10px;
 }
 
+.align_center {
+  text-align: center;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -302,6 +306,12 @@ h1 {
   z-index: 0;
   bottom: -8px;
   right: 5px;
+}
+
+.button_more {
+  width: 239px;
+  height: 40px;
+  background: url(../images/button-more.png) no-repeat;
 }
 
 footer {
