@@ -327,7 +327,7 @@ h1 {
 }
 
 footer {
-  padding: 0 0 25px;
+  padding: 0 0 110px;
   clear: both;
 }
 
@@ -336,6 +336,29 @@ footer .pull_right {
   color: #666;
   font-size: 10px;
   padding-top: 3px;
+}
+
+#progress_wrapper {
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 85px;
+  background: url(../images/bg-progress-wrapper.png) repeat-x;
+  padding-top: 15px;
+}
+
+#progress_wrapper h2 {
+  height: 17px;
+  margin-bottom: 6px;
+  background: url(../images/how-this-works.png) no-repeat center center;
+}
+
+#progress_bar {
+  width: 940px;
+  height: 56px;
+  background: url(../images/step-1.png) no-repeat;
 }
 
 /*
