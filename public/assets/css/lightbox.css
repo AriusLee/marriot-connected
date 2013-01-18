@@ -103,6 +103,12 @@
   z-index: 1;
 }
 
+
+#process_completed.lightbox_wrapper .shadow {
+  margin-top: 75px;
+}
+
+
 .claim_box .cached_email {
   font-size: 17px;
   color: #565D63;
@@ -162,4 +168,36 @@
   background: none !important;
   border: none;
   outline: none;
+}
+
+#process_completed .claim_box {
+  height: 225px !important;
+  margin-top: -112px !important;
+}
+
+.claim_box .completed_row {
+  width: 100%;
+  height: 225px;
+  background: #B9182C;
+  border-radius: 0 0 4px 4px;
+}
+
+#process_completed .thank_note {
+  font-family: 'Cutive', serif;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 -1px rgba(0,0,0,0.55);
+  padding-top: 84px;
+  line-height: 1.8em;
+}
+
+#process_completed .claim_box:before {
+  content: "";
+  width: 439px;
+  height: 238px;
+  position: absolute;
+  background: url(../images/ribbon.png) no-repeat;
+  top: -7px;
+  left: -34px;
 }
