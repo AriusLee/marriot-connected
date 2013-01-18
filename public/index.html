@@ -4,7 +4,7 @@
   <title>Marriot</title>
   <link rel="stylesheet" type="text/css" href="assets/css/lightbox.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/application.css" />
-  <link href='http://fonts.googleapis.com/css?family=Cutive' rel='stylesheet' type='text/css'>
+  <!--<link href='http://fonts.googleapis.com/css?family=Cutive' rel='stylesheet' type='text/css'>-->
   <script src="assets/javascripts/modernizr-2.5.3.min.js"></script>
   
 </head>
@@ -141,7 +141,28 @@
   
   <a id="page_corner"></a>
   
-  <div class="lightbox_wrapper">
+  <div class="lightbox_wrapper" id="request_email">
+    <div class="claim_box">
+      <div class="image_row"><img src="assets/images/samples/fish.jpg" alt="" /></div>
+      <div class="context_row">
+        <h1>$10 GIFT TO SPEND AT NAKED FISH</h1>
+        <div class="instruction_col">
+          <p>Please enter your email to receive the gift:</p>
+          <div class="mailbox"><input type="email" placeholder="Enter email"></div>
+        </div><!-- /.instruction_col -->
+        <div class="action_col">
+          <p>BY ACCEPTING, YOU ARE AGREE TO OUR <a href="#">TERMS & CONDITIONS</a></p>
+          <input type="submit" value="" class="button_claim" />
+          <p>Expires: 31 Feb 2013</p>
+        </div><!-- /.action_col -->
+      </div>
+      <div class="publisher_box"><img src="assets/images/shecky.jpg" alt="" /></div>
+      <div class="spark"></div>
+    </div><!-- /.claim_box -->
+    <div class="shadow"></div>
+  </div><!-- /.lightbox_wrapper -->
+  
+  <div class="lightbox_wrapper" id="cached_email">
     <div class="claim_box">
       <div class="image_row"><img src="assets/images/samples/fish.jpg" alt="" /></div>
       <div class="context_row">
@@ -161,6 +182,7 @@
     </div><!-- /.claim_box -->
     <div class="shadow"></div>
   </div><!-- /.lightbox_wrapper -->
+  
 
   <script src="assets/javascripts/jquery.js"></script>
   <script src="assets/javascripts/application.js"></script>

@@ -1,7 +1,7 @@
 $(document).ready(function() {
   
   $('.gift_pane .claim_button').click(function() {
-    $('.lightbox_wrapper').fadeIn();
+    $('#request_email').fadeIn();
   });
   
   $('.lightbox_wrapper').click(function() {
