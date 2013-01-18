@@ -278,6 +278,14 @@ section h1 {
   outline: none;
 }
 
+.gift_pane .claimed_button {
+  width: 131px;
+  height: 40px;
+  background: url(../images/button-claimed.png) no-repeat;
+  border: none;
+  outline: none;
+}
+
 .gift_pane .button_row {
   padding-top: 8px;
 }
