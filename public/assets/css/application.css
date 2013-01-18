@@ -361,6 +361,26 @@ footer .pull_right {
   background: url(../images/step-1.png) no-repeat;
 }
 
+#page_corner {
+  display: block;
+  cursor: pointer;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 131px;
+  background: url(../images/corner-closed.png) no-repeat right top;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+}
+
+#page_corner:hover {
+  background: url(../images/corner-open.png) no-repeat right top;
+}
+
 /*
 ========================== code ends =============================
 */
