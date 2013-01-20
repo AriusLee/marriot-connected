@@ -274,12 +274,13 @@ section h1 {
   color: #0071BC;
   font-size: 15px;
   line-height: 1.1em;
-  padding: 6px 0;
+  padding: 0 0 5px;
 }
 
 .gift_pane p {
   font-size: 11px;
   color: #736757;
+  padding-top: 4px;
 }
 
 .gift_pane p a {
