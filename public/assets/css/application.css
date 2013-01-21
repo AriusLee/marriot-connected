@@ -410,6 +410,10 @@ footer .pull_right {
   background: url(../images/corner-open.png) no-repeat right top;
 }
 
+.learn_more {
+  text-align: center;
+}
+
 /*
 ========================== code ends =============================
 */
