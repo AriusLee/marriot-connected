@@ -112,7 +112,7 @@ body {
 header {
   padding: 10px 0;
   position: relative;
-  height: 50px;
+  height: 60px;
   clear: both;
   text-align: center;
 }
@@ -121,8 +121,8 @@ a#logo_link {
   position: absolute;
   left: 0;
   top: 10px;
-  width: 112px;
-  height: 50px;
+  width: 91px;
+  height: 60px;
   background: url(../images/logo.png) no-repeat;
 }
 
